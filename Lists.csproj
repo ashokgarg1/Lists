@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ListsTests\**" />
+    <EmbeddedResource Remove="ListsTests\**" />
+    <None Remove="ListsTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Classes\ListQueueGeneric.cs" />
+    <Compile Remove="Interfaces\IListQueueGeneric.cs" />
+  </ItemGroup>
+
+</Project>
